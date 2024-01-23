@@ -1,0 +1,12 @@
+{% extends 'booking/layout.html' %}
+
+{% block title %}
+{{ title }}
+{% endblock %}
+
+{% block content %}
+<div class="features">
+    <h1>{{ title }}</h1>
+    <a href="{% url 'form' %}"><button class="btn btn-warning">Забронировать</button></a>
+</div>
+{% endblock %}

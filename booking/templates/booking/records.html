@@ -1,0 +1,20 @@
+{% extends 'booking/layout.html' %}
+
+{% block title %}
+Форма
+{% endblock %}
+
+{% block content %}
+<div class="features">
+    {% for r in reservations %}
+    <div class="alert alert-success" id="record">
+        <p>ФИО: {{ r.username }}</p>
+        <p>Номер телефона: {{ r.phone_number }}</p>
+        <p>Почта: {{ r.email }}</p>
+        <p>Количество человек: {{ r.count }}</p>
+        <p>Дата: {{ r.date }}</p>
+    </div>
+    {% endfor %}
+</div>
+
+{% endblock %}

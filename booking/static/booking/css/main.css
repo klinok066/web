@@ -1,0 +1,97 @@
+body {
+    background: #ffffff;
+}
+
+aside {
+    float: left;
+    background: #d7f5da;
+    width: 20%;
+    padding: 2.5%;
+    height: 100%;
+    border-right: 2px solid #4d4d4d;
+    border-bottom: 2px solid #4d4d4d;
+}
+
+aside img {
+    width: 80px;
+    float: left;
+}
+
+aside .logo {
+    font-size: 18px;
+    margin-left: 10px;
+    font-weight: bold;
+    position: relative;
+    top: 20px;
+}
+
+aside h3 {
+    margin-top: 50px;
+    font-size: 25px;
+}
+
+aside ul {
+    list-style: none;
+    text-decoration: none;
+}
+
+aside ul a {
+    text-decoration: none;
+}
+
+aside ul li {
+    color: black;
+    display: block;
+    margin-top: 20px;
+    transition: transform .4s ease;
+}
+
+aside ul li:hover, aside ul a:hover {
+    color: #3b2313;
+    text-decoration: none;
+    transform: scale(1.05);
+}
+
+main .features {
+    float: left;
+    margin-top: 100px;
+    text-align: center;
+    width: 75%;
+}
+
+main .features h1 {font-size: 50px}
+main .features p {max-width: 400px; margin: 20px auto}
+
+#form1 {
+    margin-left: 22%;
+    width: 500px;
+    margin-top: 50px;
+}
+
+#button {
+    background: #d7f5da;
+    border-color: #d7f5da;
+}
+
+#login1 {
+    text-align: center;
+    padding: 50px;
+    position: fixed; top: 40%; left: 57%;
+    transform: translate(-50%, -50%);
+}
+
+#login2 {
+    padding: 20px;
+}
+
+.alert-success {
+    float:left;
+    clear:both;
+    width: 400px;
+    margin: 20px 39%;
+    text-align: center;
+}
+
+#button1 {
+
+}

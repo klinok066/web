@@ -1,0 +1,13 @@
+{% extends 'booking/layout.html' %}
+
+{% block title %}
+Форма
+{% endblock %}
+
+{% block content %}
+<div class="features" id="form1">
+    <h2>Форма отправлена</h2>
+    <a href="{% url 'home' %}"><button class="btn btn-warning" type="submit">На главную</button></a>
+</div>
+
+{% endblock %}

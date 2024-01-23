@@ -1,0 +1,17 @@
+{% extends 'booking/layout.html' %}
+
+{% block title %}
+Форма
+{% endblock %}
+
+{% block content %}
+<div class="border-top pt-3" id="logout">
+    <h2>Вы вышли из своей учетной записи</h2>
+    <small class="text-muted">
+        <a href="{% url 'login' %}">
+            <button class="btn btn-warning">Войти</button>
+        </a>
+    </small>
+</div>
+
+{% endblock %}
